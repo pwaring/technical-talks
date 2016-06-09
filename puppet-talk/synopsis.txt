@@ -1,0 +1,1 @@
+This month Paul Waring will be talking about Puppet, a configuration management and provisioning tool. Paul will provide an overview of the basics of configuration management and available tools, followed by detailed examples using Puppet.
