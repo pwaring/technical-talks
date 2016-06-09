@@ -1,0 +1,2 @@
+This month Paul Waring will be talking about Vagrant, a tool for automatically creating and provisioning virtual machines. Paul will provide an overview of Vagrant from the ground up, and demonstrations of automatically provisioning machines with the help of the Puppet configuration management software.
+
