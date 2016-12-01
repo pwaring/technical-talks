@@ -12,6 +12,6 @@ slides-print.pdf: slides.md
 	pandoc $(PANDOC_PRINT_FLAGS) $< -o $@
 
 clean:
-	rm -f $(PDF_FILES)
+	rm -f $(PDF_FILES) *.log
 
 .PHONY: clean
