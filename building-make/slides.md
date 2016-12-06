@@ -2,6 +2,12 @@
 % Paul Waring (paul@xk7.net)
 % February 18, 2017
 
+# Special variables
+
+ - `$@`: Full target filename (i.e. what will be built).
+ - `$*`: Target filename without the suffix, e.g. `hello.o` becomes `hello`.
+ - `$<`: The file which triggered this rule.
+
 # Gotchas
 
  - Indent with tabs not spaces (watch out for editors)
