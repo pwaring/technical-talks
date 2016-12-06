@@ -7,6 +7,13 @@
  - Tool for automating building software, documentation etc.
  - Other tools with similar names, e.g. pmake, nmake
 
+# Make without a Makefile
+
+ - Make has some built-in rules
+ - Compiling C source files to object files
+ - Linking object files to an executable
+ - `cd examples/no-makefile && make hello`
+
 # Makefile components
 
  - Makefiles are a list of targets
