@@ -1,6 +1,11 @@
-% Building Software and Documentation with Make
+% Building Software and Documentation with GNU Make
 % Paul Waring (paul@xk7.net)
 % February 18, 2017
+
+# What is GNU Make?
+
+ - Tool for automating building software, documentation etc.
+ - Other tools with similar names, e.g. pmake, nmake
 
 # Makefile components
 
