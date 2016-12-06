@@ -2,7 +2,7 @@
 % Paul Waring (paul@xk7.net)
 % February 18, 2017
 
-# Basic Makefile
+# Makefile components
 
  - Makefiles are a list of targets
  - Targets have dependencies
