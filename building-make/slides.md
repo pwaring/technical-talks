@@ -29,6 +29,7 @@ target: dependencies
  - Indent with tabs not spaces (watch out for editors)
  - Changing header files does not always rebuild dependent targets
  - Last modified behaviour means occasional unnecessary rebuilds
+ - GNU Make uses `/bin/sh` by default
 
 # Resources
 
