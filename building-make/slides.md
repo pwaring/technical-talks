@@ -9,16 +9,16 @@
 
 # Make without a Makefile
 
- - Make has some built-in rules
- - Compiling C source files to object files
- - Linking object files to an executable
+ - Make has some built-in rules.
+ - Compiling C source files to object files.
+ - Linking object files to an executable.
  - `cd examples/no-makefile && make hello`
 
 # Makefile components
 
- - Makefiles are a list of targets
- - Targets have dependencies
- - Dependencies have rules
+ - Makefiles are a list of targets.
+ - Targets have dependencies.
+ - Dependencies have rules.
 
 ```
 target: dependencies
@@ -33,9 +33,9 @@ target: dependencies
 
 # Gotchas
 
- - Indent with tabs not spaces (watch out for editors)
- - Changing header files does not always rebuild dependent targets
- - Last modified behaviour means occasional unnecessary rebuilds
+ - Indent with tabs not spaces (watch out for editors).
+ - Changing header files does not always rebuild dependent targets.
+ - Last modified behaviour means occasional unnecessary rebuilds.
  - GNU Make uses `/bin/sh` by default (override with `SHELL=`).
 
 # Resources
