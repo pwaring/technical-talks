@@ -1,6 +1,6 @@
 % Configuration management with Ansible and Git
 % Paul Waring (paul@xk7.net, @pwaring)
-% March 16, 2016
+% January 10, 2017
 
 ## Topics
 
