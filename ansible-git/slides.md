@@ -17,8 +17,16 @@
   - Old days: edit files on each server, manual package installation
   - Boring, repetitive, error-prone
   - Computers are good at this sort of thing
-  - Write a playbook/manifest and let software do the rest
+  - Automate using shellscripts - doesn't scale
+  - Create configuration file and let software do the rest
   - Less firefighting, more tea-drinking
+
+## Terminology
+
+  - Managed node: Machines (physical/virtual) managed by Ansible
+  - Control machine: Runs the Ansible client
+  - Playbook/manifest: Describes how a managed node is configured
+  - Agent: Runs on managed nodes
 
 ## Ansible
 
@@ -26,6 +34,7 @@
   - Free and open source software - GPLv3
   - Developed by the community and Ansible Inc.
   - Ansible Inc now part of RedHat
+  - Support via the usual channels, free and paid
 
 ## Alternatives to Ansible
 
@@ -36,10 +45,10 @@
 ## Why Ansible?
 
   - Minimal dependencies: SSH and Python 2
-  - Many major distros ship with both
+  - Many Linux distros ship with both
   - No agents/daemons (except SSH)
-  - Supports *really* old versions of Python (2.5 / RHEL 5)
-  - Linux, *BSD, OS X and Windows
+  - Supports *really* old versions of Python (2.4 / RHEL 5) on nodes
+  - Linux, *BSD, macOS and Windows
 
 ## Why Ansible?
 
