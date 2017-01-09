@@ -66,7 +66,7 @@
 
 ~~~ini
 [defaults]
-hostfile = hosts
+inventory = hosts
 ~~~
 
 ## Inventory file
