@@ -79,7 +79,7 @@ hostfile = hosts
 
 ```
 [staging]
-testvm ansible_ssh_host=127.0.0.1
+testvm ansible_host=127.0.0.1
   ansible_port=2222
   ansible_user=vagrant
   ansible_private_key_file=
