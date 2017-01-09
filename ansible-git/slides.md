@@ -80,15 +80,14 @@ hostfile = hosts
 ```
 [staging]
 testvm ansible_ssh_host=127.0.0.1
-  ansible_ssh_port=2222
-  ansible_ssh_user=vagrant
-  ansible_ssh_private_key_file=
+  ansible_port=2222
+  ansible_user=vagrant
+  ansible_private_key_file=
     ~/.vagrant.d/insecure_private_key
 
 [production]
-bigv ansible_ssh_host=bigv.ukuug.org
-  ansible_ssh_user=root
-  ansible_ssh_private_key_file=~/id_rsa
+bigv ansible_host=bigv.ukuug.org
+  ansible_user=root
 ```
 
 ## Modules
