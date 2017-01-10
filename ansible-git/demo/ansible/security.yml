@@ -3,6 +3,9 @@
   hosts: vagrant
   become: yes
   become_user: root
+  vars:
+    incoming_services:
+      - ssh
 
   tasks:
     - name: Install UFW
@@ -11,10 +14,11 @@
     - name: start ufw
       ufw:
         state: enabled
-    - name: enable incoming ssh
+    - name: enable incoming services
+      with_items: "{{ incoming_services }}"
       ufw:
         rule: allow
-        to_port: ssh
+        to_port: "{{ item }}"
     - name: allow all outgoing traffic
       ufw:
         direction: outgoing
