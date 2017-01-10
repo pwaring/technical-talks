@@ -53,6 +53,7 @@
 ## Why Ansible?
 
   - Scales up and down
+  - Gentle learning curve
   - But... no killer features
   - A bit like: vim vs emacs
 
@@ -100,7 +101,7 @@ bigv ansible_host=bigv.ukuug.org
 
   - List of tasks to run on nodes
   - Imperative vs declarative
-  - Can be idempotent
+  - Can (and should!) be idempotent
   - Yet Another Markup Language (YAML)
 
 ## Firewall playbook
@@ -141,13 +142,14 @@ vars:
     - apache2
     - libapache2-mod-php5
     - php5-mysql
+  apt_update_cache: yes
 
 tasks:
   - name: Install Apache and related packages
     with_items: "{{ install_packages }}"
     apt:
       name: "{{ item }}"
-      update_cache: yes
+      update_cache: "{{ apt_update_cache }}"
       cache_valid_time: 3600
 ```
 
