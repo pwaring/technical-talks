@@ -7,7 +7,7 @@
   - Configuration management
   - Version control
   - Firewall
-  - Apache
+  - Apache / nginx
   - Git Hooks
   - Bringing it all together
   - Live demo
@@ -17,7 +17,7 @@
   - Old days: edit files on each server, manual package installation
   - Boring, repetitive, error-prone
   - Computers are good at this sort of thing
-  - Automate using shellscripts - doesn't scale
+  - Automate using shellscripts - doesn't scale, brittle
   - Create configuration file and let software do the rest
   - Less firefighting, more tea-drinking
 
