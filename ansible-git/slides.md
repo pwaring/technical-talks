@@ -10,7 +10,6 @@
   - Apache / nginx
   - Git Hooks
   - Bringing it all together
-  - Live demo
 
 ## Configuration management
 
