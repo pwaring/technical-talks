@@ -79,7 +79,7 @@ inventory = hosts
 
 ```
 [staging]
-testvm ansible_host=127.0.0.1
+vagrant ansible_host=127.0.0.1
   ansible_port=2222
   ansible_user=vagrant
   ansible_private_key_file=
@@ -108,7 +108,8 @@ bigv ansible_host=bigv.ukuug.org
 ```yaml
 - name: Security playbook
   hosts: vagrant
-  sudo: True
+  become: yes
+  become_user: root
 
   tasks:
     - name: enable incoming ssh
@@ -187,6 +188,15 @@ handlers:
   - Rollback/undo changes, e.g. `git checkout -- <file>`
   - View full history to the beginning of time: `git log`
   - Branching is cheap
+
+## Git workflow
+
+  - Create branch: `git branch <branch>`
+  - Checkout branch: `git checkout <branch>`
+  - Add files: `git add <file>`
+  - Commit changes: `git commit -m <message>`
+  - Merge: `git checkout master && git merge <branch>`
+  - Push: `git push`
 
 ## Git hooks
 
