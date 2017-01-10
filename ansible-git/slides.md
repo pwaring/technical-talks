@@ -143,7 +143,7 @@ vars:
     - php5-mysql
 
 tasks:
-  - name: Install Apache
+  - name: Install Apache and related packages
     with_items: "{{ install_packages }}"
     apt:
       name: "{{ item }}"
@@ -241,3 +241,7 @@ for filepath in $files; do
   ansible-playbook ${filepath} -i ${HOSTS_FILE}
 done
 ```
+
+## Questions?
+
+ - Slides at: [https://github.com/pwaring/technical-talks](https://github.com/pwaring/technical-talks)
