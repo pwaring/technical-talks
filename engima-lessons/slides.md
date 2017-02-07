@@ -1,11 +1,15 @@
+% Lessons Learned from Enigma
+% Paul Waring (paul@xk7.net, @pwaring)
+% March 2, 2017
+
 # Engima
 
  - Used for encrypting German messages in WW2
 
 # Enigma as an example
 
- - Demonstrates the flaws in design
- - Demonstrates the flaws in operation
+ - Demonstrates flaws in design
+ - Demonstrates flaws in operation
  - State vs state - almost limitless resources
  - Highest stakes possible
  - Probably the biggest 'hack' in history
@@ -29,12 +33,13 @@
  - Ideally want integrity (but not in scope)
  - Will focus mainly on encryption (and breaking)
 
-# Traffic identification and metadata
+# Traffic analysis
 
  - Can triangulate radio signals to get rough location
  - Track operators by fingerprint
  - Often tells you more than the message
  - Sometimes gives clues for cracking
+ - Similar to metadata from emails, websites etc.
 
 # Plaintext 'knowledge'
 
@@ -42,6 +47,14 @@
  - Knowing the position of plaintext is even better
  - Weather and other structured reports
  - Intentionally cause known messages to be sent
+
+# Compromised keys
+
+ - U-boats spent long times at sea so required monthly(?) books
+ - Capture or sink a U-boat and you have the keys
+ - Germans did not always revoke keys after sinking
+ - Extremely dangerous operation, but rewarding
+ - Still need cryptoanalysis to continue
 
 # Lessons learned
 
