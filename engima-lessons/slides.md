@@ -2,19 +2,6 @@
 % Paul Waring (paul@xk7.net, @pwaring)
 % March 2, 2017
 
-# Engima
-
- - Used for encrypting German messages in WW2
-
-# Enigma as an example
-
- - Demonstrates flaws in design
- - Demonstrates flaws in operation
- - State vs state - almost limitless resources
- - Highest stakes possible
- - Probably the biggest 'hack' in history
- - War reduced by 2 years, millions of lives saved
-
 # Problem
 
  - Need to transmit messages across long distances
@@ -33,6 +20,19 @@
  - Ideally want integrity (but not in scope)
  - Will focus mainly on encryption (and breaking)
 
+# Engima
+
+ - Used for encrypting German messages in WW2
+
+# Enigma as an example
+
+ - Demonstrates flaws in design
+ - Demonstrates flaws in operation
+ - State vs state - significant resources available
+ - Highest stakes possible
+ - Probably the biggest 'hack' in history
+ - War reduced by 1-2 years, millions of lives saved
+
 # Traffic analysis
 
  - Can triangulate radio signals to get rough location
@@ -45,16 +45,20 @@
 
  - Knowing (or guessing) some of the plaintext helps with cracking
  - Knowing the position of plaintext is even better
- - Weather and other structured reports
+ - Army reports tend to be structured and regular (e.g. weather)
  - Intentionally cause known messages to be sent
 
 # Compromised keys
 
  - U-boats spent long times at sea so required monthly(?) books
- - Capture or sink a U-boat and you have the keys
+ - Capture a U-boat and you have the keys
  - Germans did not always revoke keys after sinking
  - Extremely dangerous operation, but rewarding
  - Still need cryptoanalysis to continue
+
+# Assumption of security
+
+ - Occasionally not using decrypted messages
 
 # Lessons learned
 
