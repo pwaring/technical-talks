@@ -1,0 +1,3 @@
+In the Second World War, the German forces used a machine codenamed Enigma to encrypt their communications. At the time, this encryption was sufficiently powerful to resist cryptanalysis
+
+In this talk we will examine some of the flaws in the design and operation of the cipher which ultimately allowed the UK and its allies to . Although over 50 years old, the story still contains lessons which are valuable to modern cryptography, particularly around user mistakes,
