@@ -1,6 +1,6 @@
 % Building Software and Documentation with GNU Make
 % Paul Waring (paul@xk7.net)
-% February 18, 2017
+% February 25, 2017
 
 # What is GNU Make?
 
