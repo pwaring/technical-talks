@@ -7,14 +7,11 @@
  - Tool for automating building software, documentation etc.
  - Other tools with similar names, e.g. pmake, nmake
 
-# Make without a Makefile
+# What does Make do?
 
- - Make has some built-in rules.
- - Compiling C source files to object files.
- - Linking object files to an executable.
- - `cd examples/no-makefile`
- - `make hello.o`
- - `make hello`
+ - Builds things based on whether they are 'out of date'.
+ - Outdated is calculated based on file timestamps.
+ - Configured using a `Makefile`.
 
 # Makefile components
 
@@ -23,6 +20,22 @@
  - Targets have dependencies ('what to build first').
  - Some dependencies are targets in their own right.
  - Not all targets are dependencies.
+ - Not all dependencies are built by Make.
+
+# Make without a Makefile
+
+ - Make has some implicit rules.
+ - Compiling C source files to object files.
+ - Linking object files to an executable.
+ - `cd examples/no-makefile`
+ - `make hello.o`
+ - `make hello`
+
+# Simple C compiling example
+
+```makefile
+#include "examples/hello-c/Makefile"
+```
 
 # Example: slides
 
@@ -30,11 +43,6 @@
  - Dependency of `slides.html` is `slides.md` which must be built/exist first.
  - `slides.md` is not a target, so not built by Make.
  - If (and only if) `slides.md` changes, we want to rebuild `slides.html`.
-
-```
-target: dependencies
-  rules
-```
 
 # Make will build a target when...
 
@@ -44,12 +52,38 @@ target: dependencies
 # Make will not build a target when...
 
  - The rules used to generate the target have changed.
+ - A configuration variable is set which affects the rules.
+
+# Make variables
+
+ - User-defined variables
+ - Where they can be set
+ - Provide value if not already set
+ - Common values, e.g. `CFLAGS`
+
+# Phony targets and clean
+
+ - Common to have a `clean` target which removes intermediate files.
+ - `clean` can also be used to force a full rebuild.
+ - `.PHONY`: Stops Make being confused by file with same name as target.
 
 # Special variables
 
  - `$@`: Full target filename (i.e. what will be built).
  - `$*`: Target filename without the suffix, e.g. `hello.o` becomes `hello`.
  - `$<`: The file which triggered this rule.
+
+# Debugging
+
+ - `-n`: Show commands which would be run.
+
+# Parallel builds
+
+ - `-j [number]`
+ - `--output-sync` does what it says (>= 4.0)
+ - May cause problems with dependencies built out of order
+ - Requires Makefiles to be written with this in mind
+ - Linux kernel is an example
 
 # Autoconf and Automake
 
