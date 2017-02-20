@@ -39,10 +39,16 @@
 
 # Example: slides
 
- - Main target is `slides.html`.
- - Dependency of `slides.html` is `slides.md` which must be built/exist first.
+ - Main target is `slides-s5.html`.
+ - Dependency of `slides-s5.html` is `slides.md` which must be built/exist first.
  - `slides.md` is not a target, so not built by Make.
- - If (and only if) `slides.md` changes, we want to rebuild `slides.html`.
+ - If (and only if) `slides.md` changes, we want to rebuild `slides-s5.html`.
+
+# Slides Makefile
+
+```makefile
+#include "Makefile"
+```
 
 # Make will build a target when...
 
@@ -76,6 +82,7 @@
 # Debugging
 
  - `-n`: Show commands which would be run.
+ - Caution: Rules which generate side-effects.
 
 # Parallel builds
 
