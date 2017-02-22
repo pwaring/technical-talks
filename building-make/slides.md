@@ -92,9 +92,17 @@
  - Requires Makefiles to be written with this in mind
  - Linux kernel is an example
 
-# Autoconf and Automake
+# Autotools
 
- - Insert notes here.
+ - Autoconf, Automake and Libtool.
+ - Works on Linux (good), macOS (usually), Windows (good luck!).
+ - End-user requires `make` and `bash`.
+ - `./configure && make && sudo make install`.
+
+# Automake
+
+ - `Makefile.am` -> `Makefile.in`.
+ - `./configure` turns `Makefile.in` into a platform-specific `Makefile` (via `config.status`).
 
 # Gotchas
 
