@@ -1,2 +1,4 @@
 examples/no-makefile/hello
-slides-*.html
+examples/hello-c/hello
+*.o
+slides.html
