@@ -5,12 +5,16 @@
 # What is GNU Make?
 
  - Tool for automating building software, documentation etc.
- - Other tools with similar names, e.g. pmake, nmake
+ - Other tools with similar names, e.g. pmake (BSD), nmake (Microsoft).
+ - GNU Make sometimes shortened to gmake.
+ - [GNU Make vs nmake](http://nmake.alcatel-lucent.com/faq/gmake.html).
+ - This talk is GNU Make specific, though a lot applies to other Makes.
 
 # What does Make do?
 
  - Builds things based on whether they are 'out of date'.
- - Outdated is calculated based on file timestamps.
+ - Outdated is calculated based on file last modified timestamps.
+ - `make` followed immediately by `make` -> no build.
  - Configured using a `Makefile`.
 
 # Makefile components
@@ -19,36 +23,12 @@
  - Targets have rules ('how to build').
  - Targets have dependencies ('what to build first').
  - Some dependencies are targets in their own right.
+
+# Makefile components
+
  - Not all targets are dependencies.
  - Not all dependencies are built by Make.
-
-# Make without a Makefile
-
- - Make has some implicit rules.
- - Compiling C source files to object files.
- - Linking object files to an executable.
- - `cd examples/no-makefile`
- - `make hello.o`
- - `make hello`
-
-# Simple C compiling example
-
-```makefile
-#include "examples/hello-c/Makefile"
-```
-
-# Example: slides
-
- - Main target is `slides-s5.html`.
- - Dependency of `slides-s5.html` is `slides.md` which must be built/exist first.
- - `slides.md` is not a target, so not built by Make.
- - If (and only if) `slides.md` changes, we want to rebuild `slides-s5.html`.
-
-# Slides Makefile
-
-```makefile
-#include "Makefile"
-```
+ - End result: directed graph.
 
 # Make will build a target when...
 
@@ -60,12 +40,28 @@
  - The rules used to generate the target have changed.
  - A configuration variable is set which affects the rules.
 
-# Make variables
+# Make without a Makefile
 
- - User-defined variables
- - Where they can be set
- - Provide value if not already set
- - Common values, e.g. `CFLAGS`
+ - Make has some implicit rules.
+ - Compiling C source files to object files.
+ - Linking object files to an executable.
+ - `cd examples/no-makefile`
+ - `make hello.o`
+ - `make hello`
+
+# Example: slides
+
+ - Main target is `slides.html`.
+ - Dependency of `slides.html` is `slides.md` which must be built/exist first.
+ - `slides.md` is not a target, so not built by Make.
+ - If `slides.html` does not exist, build it.
+ - If (and only if) `slides.md` changes, we want to rebuild `slides.html`.
+
+# Slides Makefile
+
+```makefile
+#include "Makefile"
+```
 
 # Phony targets and clean
 
@@ -73,11 +69,28 @@
  - `clean` can also be used to force a full rebuild.
  - `.PHONY`: Stops Make being confused by file with same name as target.
 
+# Make variables
+
+ - User-defined variables
+ - Where they can be set
+ - Provide value if not already set
+ - Common values, e.g. `CFLAGS`
+
 # Special variables
 
  - `$@`: Full target filename (i.e. what will be built).
  - `$*`: Target filename without the suffix, e.g. `hello.o` becomes `hello`.
  - `$<`: The file which triggered this rule.
+
+# C example with explicit rules
+
+```makefile
+#include "examples/hello-c/Makefile"
+```
+
+# Workshop notes and book
+
+ - Could combine Makefiles into one
 
 # Debugging
 
