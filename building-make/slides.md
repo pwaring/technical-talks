@@ -142,6 +142,7 @@
 
 # Resources
 
- - [GNU Make manual](http://www.gnu.org/software/make/manual/)
+ - [GNU Make manual](http://www.gnu.org/software/make/manual/).
  - [GNU Make vs nmake](http://nmake.alcatel-lucent.com/faq/gmake.html).
- - The GNU Make Book by John Graham-Cumming (No Starch Press)
+ - The GNU Make Book by John Graham-Cumming (No Starch Press).
+ - Autotools by John Calcote (No Starch Press).
