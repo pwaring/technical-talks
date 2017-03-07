@@ -1,0 +1,5 @@
+Title: Life as a coin-operated monkey
+
+Eighteen months ago I decided to give up the relative security of a permanent position at a large university and become a swashbuckling mercenary, selling my development and system administration skills to the highest bidder. Unfortunately the reality turned out to be slightly less glamorous and I've ended up as a coin-operated monkey, but I've had lots of fun along the way.
+
+This talk will cover my experiences of freelancing so far, whether it might be the right choice for you, and advice on what (and what not) to do if you decide to join us on the dark side (we have cookies).
