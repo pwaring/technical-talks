@@ -1,4 +1,4 @@
-% Freelancing experiences
+% Life as a coin-operated monkey
 % Paul Waring (paul@xk7.net)
 % Month DD, YYYY
 
