@@ -1,2 +1,3 @@
-*.pdf
+*/*.pdf
+*/slides*.html
 *.log
