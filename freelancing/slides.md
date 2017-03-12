@@ -1,13 +1,14 @@
 % Life as a coin-operated monkey
 % Paul Waring (paul@xk7.net)
-% Month DD, YYYY
+% March 16, 2017
 
-# About
+# whoami
 
  - Freelancing since July 2016
+ - I write PHP and maintain legacy code and systems
  - Previously at University of Manchester
- - Before Manchester worked in insurance
- - I like trains, tea and tabby cats
+ - Before Manchester worked in commercial motor insurance
+ - I like trains, politics and technology (@pwaring)
 
 # Disclaimers
 
@@ -20,17 +21,24 @@
 # Topics
 
  - Mix of my experiences and practical advice
+ - Learn from my mistakes
+ - Why might you want to try freelancing (and why not)
+ - How to make freelancing work
 
-# Freelancing: advantages
+# Why?
 
  - Greater control over your destiny
+ - Variety of work and clients
+ - Flexibility (hours and workload)
 
-# Freelancing: disadvantages
+# Why not?
 
  - No redundancy
  - Fewer employment rights
  - Limited cover for sickness, emergencies
  - No paid leave
+ - Partner needs to 'understand'
+ - Dependents
 
 # Types of freelancing mode
 
@@ -40,40 +48,37 @@
 
 # Fixed term contract
 
+ - Most popular method - 'contracting'
  - Single client, exclusive
  - Usually on-site
+ - Usually full-time
  - Initial term of 3-6 months
+ - Extensions often available
 
-# Fixed term contract: advantages
+# Project work
 
- - Good clients treat you well
- - Extensions often offered
- - Guaranteed work
-
-# Fixed term contract: disadvantages
-
- - Leaves you looking for work every 3-6 months
- - Can get boring
- - Employee with fewer rights and higher pay
- - All eggs in one basket
+ - Multiple projects, multiple clients
+ - Works well for standard tasks, e.g. WordPress theme design
+ - Can be hard to keep a pipeline of work
+ - Often fixed pricing
 
 # Regular clients
 
  - Work for the same clients on projects
  - Non-exclusive
  - Retainers are great if available
- - Not many people offer this
+ - Not many freelancers offer this
  - My niche area
 
 # Finding work
 
- - Network
- - Simple website with keyword-rich domain
- - List contact details and portfolio
+ - Networking
+ - Simple website
+ - Social media profile
 
 # Networking
 
- - A continuous process
+ - A continuous process over many years
  - Start now
  - Depth rather than breadth
  - Repeat attendance not wide attendance
@@ -85,10 +90,18 @@
  - Most speakers love to be asked questions
  - Ask organisers to introduce you
 
-# Banking
+# Simple website
 
- - Separate account for business income
- - Different bank to personal account
+ - Keep it really simple
+ - If in doubt, install WordPress with custom theme
+ - List contact details, portfolio and CV
+ - Blog if you have time
+ - Keyword-rich domain
+
+# Time management
+
+ - Sales meetings are expensive - ration them
+ - Lawyer model: 1 hour meeting, then charge
 
 # Money management
 
@@ -107,13 +120,22 @@
  - Reply to every initial enquiry with these
  - Make everyone sign before starting work
  - Keep them short and simple
- - Mine are freely available
+ - Email me if you want mine
 
 # Mistakes to avoid
 
  - Fixed price jobs
  - Underselling yourself
+ - Taking every job offered
+ - Going to every meeting
+ - Not standing your ground
 
 # Generic advice
 
  - Make hay while the sun shines
+
+# Thanks for listening
+
+  - Questions?
+  - Slides at: phpdeveloper.org.uk/talks/
+  - Hat tip to @mart_brooks for the title
