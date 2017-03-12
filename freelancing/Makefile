@@ -1,17 +1,12 @@
-PDF_FILES = slides-screen.pdf slides-print.pdf
-PANDOC_FLAGS = -t beamer
-PANDOC_SCREEN_FLAGS = $(PANDOC_FLAGS) -i
-PANDOC_PRINT_FLAGS = $(PANDOC_FLAGS)
+all: slides.pdf slides.html
 
-all: $(PDF_FILES)
+slides.pdf: slides.md
+	filepp slides.md | pandoc -t beamer -o slides.pdf
 
-slides-screen.pdf: slides.md
-	pandoc $(PANDOC_SCREEN_FLAGS) $< -o $@
-
-slides-print.pdf: slides.md
-	pandoc $(PANDOC_PRINT_FLAGS) $< -o $@
+slides.html: slides.md
+	filepp slides.md | pandoc -t s5 -V s5-url=../s5/default -s -o slides.html
 
 clean:
-	rm -f $(PDF_FILES) *.log
+	rm -f *.html
 
 .PHONY: clean
