@@ -1,6 +1,11 @@
 % Lessons Learned from Enigma
 % Paul Waring (paul@xk7.net, @pwaring)
-% March 2, 2017
+% April 6, 2017
+
+# Background
+
+ - World War 2: 1939 - 1945
+ - Germany + others (Axis) vs Britain + others (Allies)
 
 # Problem
 
