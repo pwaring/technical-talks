@@ -5,7 +5,7 @@
 # whoami
 
  - UKUUG/FLOSS UK regular
- - Freelancing since July 2016
+ - Freelancing since July 2015
  - I write PHP and maintain legacy code and systems
  - Previously at University of Manchester
  - Before University of Manchester worked in insurance
@@ -58,6 +58,7 @@
 # Project work
 
  - Multiple projects, multiple clients
+ - Usually one project per client
  - Works well for standard tasks, e.g. WordPress theme design
  - Can be hard to keep a pipeline of work
  - Often fixed pricing
