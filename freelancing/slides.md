@@ -4,10 +4,11 @@
 
 # whoami
 
+ - UKUUG/FLOSS UK regular
  - Freelancing since July 2016
  - I write PHP and maintain legacy code and systems
  - Previously at University of Manchester
- - Before Manchester worked in commercial motor insurance
+ - Before University of Manchester worked in insurance
  - I like trains, politics and technology (@pwaring)
 
 # Disclaimers
@@ -21,23 +22,22 @@
 # Topics
 
  - Mix of my experiences and practical advice
- - Learn from my mistakes
  - Why might you want to try freelancing (and why not)
  - How to make freelancing work
+ - Whatever you want - ask me anything!
 
 # Why?
 
  - Greater control over your destiny
  - Variety of work and clients
- - Flexibility (hours and workload)
+ - Flexibility - hours and workload
 
 # Why not?
 
- - No redundancy
  - Fewer employment rights
- - Limited cover for sickness, emergencies
+ - Limited cover for sickness, emergencies, redundancy
  - No paid leave
- - Partner needs to 'understand'
+ - Partners need to 'understand'
  - Dependents
 
 # Types of freelancing mode
@@ -78,7 +78,7 @@
 
 # Networking
 
- - A continuous process over many years
+ - Continuous process over many years
  - Start now
  - Depth rather than breadth
  - Repeat attendance not wide attendance
@@ -93,10 +93,16 @@
 # Simple website
 
  - Keep it really simple
- - If in doubt, install WordPress with custom theme
+ - If in doubt, use WordPress with custom theme
  - List contact details, portfolio and CV
  - Blog if you have time
  - Keyword-rich domain
+
+# Social media profile
+
+ - Two networks are worthwhile
+ - Twitter
+ - LinkedIn
 
 # Time management
 
@@ -105,14 +111,16 @@
 
 # Money management
 
+ - Cash flow is everything
+ - Strict credit terms - 14 days or less
  - Every payment, move 30% into liability account
  - Use this account solely for settling tax bill
- - Offsetting may be useful for mortgages
 
 # Value Added Tax
 
  - Effectively adds 20% to your prices
  - Not everyone can reclaim it
+ - Paperwork and penalties if you get it wrong
  - Avoid if possible
 
 # Terms of business agreements
@@ -130,12 +138,8 @@
  - Going to every meeting
  - Not standing your ground
 
-# Generic advice
-
- - Make hay while the sun shines
-
 # Thanks for listening
 
   - Questions?
-  - Slides at: phpdeveloper.org.uk/talks/
+  - Slides at: talks.phpdeveloper.org.uk
   - Hat tip to @mart_brooks for the title
