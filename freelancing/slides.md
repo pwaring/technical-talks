@@ -7,17 +7,7 @@
  - UKUUG/FLOSS UK regular
  - Freelancing since July 2015
  - I write PHP and maintain legacy code and systems
- - Previously at University of Manchester
- - Before University of Manchester worked in insurance
  - I like trains, politics and technology (@pwaring)
-
-# Disclaimers
-
- - All from my experience
- - Your mileage may vary
- - I am not a lawyer
- - I am not a tax expert
- - I live and trade in the UK
 
 # Topics
 
@@ -37,7 +27,6 @@
  - Fewer employment rights
  - Limited cover for sickness, emergencies, redundancy
  - No paid leave
- - Partners need to 'understand'
  - Dependents
 
 # Types of freelancing mode
@@ -84,12 +73,6 @@
  - Depth rather than breadth
  - Repeat attendance not wide attendance
  - Don't go just for networking
-
-# Networking
-
- - Shyness can be difficult
- - Most speakers love to be asked questions
- - Ask organisers to introduce you
 
 # Simple website
 
