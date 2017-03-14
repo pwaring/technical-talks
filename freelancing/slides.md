@@ -6,7 +6,8 @@
 
  - UKUUG/FLOSS UK regular
  - Freelancing since July 2015
- - I write PHP and maintain legacy code and systems
+ - PHP developer and Linux system administrator
+ - Specialise in legacy code/systems and financial services
  - I like trains, politics and technology (@pwaring)
 
 # Topics
@@ -37,7 +38,6 @@
 
 # Fixed term contract
 
- - Most popular method - 'contracting'
  - Single client, exclusive
  - Usually on-site
  - Usually full-time
@@ -54,7 +54,7 @@
 
 # Regular clients
 
- - Work for the same clients on projects
+ - Multiple projects per client
  - Non-exclusive
  - Retainers are great if available
  - Not many freelancers offer this
@@ -64,7 +64,6 @@
 
  - Networking
  - Simple website
- - Social media profile
 
 # Networking
 
@@ -72,7 +71,7 @@
  - Start now
  - Depth rather than breadth
  - Repeat attendance not wide attendance
- - Don't go just for networking
+ - LinkedIn can be worthwhile
 
 # Simple website
 
@@ -82,16 +81,10 @@
  - Blog if you have time
  - Keyword-rich domain
 
-# Social media profile
-
- - Two networks are worthwhile
- - Twitter
- - LinkedIn
-
 # Time management
 
  - Sales meetings are expensive - ration them
- - Lawyer model: 1 hour meeting, then charge
+ - First hour meeting + travel is free, then charge
 
 # Money management
 
