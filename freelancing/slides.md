@@ -27,7 +27,7 @@
  - Fewer employment rights
  - Limited cover for sickness, emergencies, redundancy
  - No paid leave
- - Dependents
+ - Buying/renting property is hard
 
 # Types of freelancing mode
 
