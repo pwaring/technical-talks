@@ -12,7 +12,7 @@
 # Topics
 
  - Mix of my experiences and practical advice
- - Why might you want to try freelancing (and why not)
+ - Why you might want to try freelancing (and why not)
  - How to make freelancing work
  - Whatever you want - ask me anything!
 
