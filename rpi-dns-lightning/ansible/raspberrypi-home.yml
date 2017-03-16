@@ -1,0 +1,114 @@
+# Playbook to configure a Raspberry Pi with Unbound as a local resolver
+# You will want to add more to this, e.g. purging wolfram-engine
+- name: configure packages
+  hosts: raspberrypi-home
+  become: true
+  vars_files:
+    - vars.yml
+  vars:
+    ipv4_local: 192.0.2.0/24
+    ipv6_local: 2001:db8::/32
+    install_packages:
+      - ufw
+      - dnsutils
+    install_packages_backports:
+      - unbound
+    apt_keys:
+      - 8B48AD6246925553
+      - 7638D0442B90D010
+    allowed_services:
+      - ssh
+      - domain
+
+  tasks:
+    - name: add jessie-backports keys
+      with_items: "{{ apt_keys }}"
+      apt_key:
+        id: "{{ item }}"
+        keyserver: pgpkeys.mit.edu
+
+    - name: add jessie-backports
+      apt_repository:
+        repo: deb http://httpredir.debian.org/debian jessie-backports main contrib non-free
+
+    - name: install required packages
+      with_items: "{{ install_packages }}"
+      apt:
+        name: "{{ item }}"
+        update_cache: "{{ apt_update_cache }}"
+        cache_valid_time: "{{ apt_cache_valid_time }}"
+
+    - name: install packages from backports
+      with_items: "{{ install_packages_backports }}"
+      apt:
+        name: "{{ item }}"
+        default_release: jessie-backports
+        update_cache: "{{ apt_update_cache }}"
+        cache_valid_time: "{{ apt_cache_valid_time }}"
+
+    - name: copy unbound config
+      copy:
+        src: files/unbound/99-local.conf
+        dest: /etc/unbound/unbound.conf.d/99-local.conf
+        owner: root
+        group: root
+        mode: 0644
+
+    - name: reload unbound
+      service:
+        name: unbound
+        enabled: yes
+        state: reloaded
+
+    - name: reset ufw to defaults
+      ufw:
+        state: reset
+
+    - name: enable ufw
+      ufw:
+        state: enabled
+
+    - name: allow services (IPv4)
+      with_items: "{{ allowed_services }}"
+      ufw:
+        rule: allow
+        to_port: "{{ item }}"
+        from_ip: "{{ ipv4_local }}"
+        proto: tcp
+
+    - name: allow services (IPv6)
+      with_items: "{{ allowed_services }}"
+      ufw:
+        rule: allow
+        to_port: "{{ item }}"
+        from_ip: "{{ ipv6_local }}"
+        proto: tcp
+
+    - name: allow UDP DNS (IPv4)
+      ufw:
+        rule: allow
+        to_port: domain
+        proto: udp
+        from_ip: "{{ ipv4_local }}"
+
+    - name: allow UDP DNS (IPv6)
+      ufw:
+        rule: allow
+        to_port: domain
+        proto: udp
+        from_ip: "{{ ipv6_local }}"
+
+    - name: allow all outgoing traffic
+      ufw:
+        direction: outgoing
+        policy: allow
+
+    - name: deny all incoming traffic
+      ufw:
+        direction: incoming
+        policy: deny
+        log: yes
+
+    - name: reload ufw
+      ufw:
+        state: reloaded
