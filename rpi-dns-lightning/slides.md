@@ -1,6 +1,4 @@
-% Using a Raspberry Pi as a local DNS resolver
-% Paul Waring (paul@xk7.net)
-% March 16, 2017
+#include "metadata.yml"
 
 # DNS resolver
 
