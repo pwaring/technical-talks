@@ -46,20 +46,46 @@
  - Sometimes gives clues for cracking
  - Similar to metadata from emails, websites etc.
 
+# Design
+
+ - Enigma could never encrypt a character as itself
+ - If you see 'A' in ciphertext, plaintext cannot be 'a'
+ - Reduces key space by factor of 26 - so what?
+ - Helps eliminate potential keys
+ - Plaintext guessing
+
 # Plaintext 'knowledge'
 
  - Knowing (or guessing) some of the plaintext helps with cracking
  - Knowing the position of plaintext is even better
  - Army reports tend to be structured and regular (e.g. weather)
+ - 'Nothing to report' reports
  - Intentionally cause known messages to be sent
 
 # Compromised keys
 
  - U-boats spent long times at sea so required monthly(?) books
  - Capture a U-boat and you have the keys
- - Germans did not always revoke keys after sinking
+ - Germans did not always revoke keys after sinking (expensive)
  - Extremely dangerous operation, but rewarding
  - Still need cryptoanalysis to continue
+
+# Per-message keys
+
+ - Choose a new key per message, encrypted with the day book setting
+ - Reduces the amount of ciphertext using the day book setting
+ - Send key twice to avoid transmission problems
+ - Repetition is bad!
+
+# U-33
+
+ - Sent to lay mines in Scottish waters
+ - Normal procedure: no Enigma machines or codes on mine-layers
+ - Ignored
+
+# Security through obscurity
+
+ - Germans careful to keep hold of Enigma machines
 
 # Assumption of security
 
@@ -72,4 +98,9 @@
  - Repetition, re-use and regularity undermines cryptography
  - Traffic analysis can sidestep encryption and aid cracking
  - If keys are lost, assume they have been compromised
- - Users are your weakest link
+ - No system survives first contact with users
+
+# Thanks for listening
+
+ - Questions?
+ - Slides at: talks.phpdeveloper.org.uk
