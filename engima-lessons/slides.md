@@ -1,12 +1,18 @@
 % Lessons Learned from Enigma
-% Paul Waring (paul@xk7.net, @pwaring)
+% Paul Waring
 % April 6, 2017
+
+# whoami
+
+ - Freelance PHP developer and Linux system administrator
+ - Specialise in legacy code/systems and financial services
+ - I like trains, politics and technology (@pwaring)
 
 # Background
 
  - World War 2: 1939 - 1945
  - Germany + others (Axis) vs Britain + others (Allies)
- - Enigma still used post-war
+ - Enigma used pre- and post-war (e.g. British colonies)
  - Other crytographical systems, e.g. Lorenz, Purple
 
 # Problem
@@ -23,9 +29,8 @@
  - Radio signals are broadcast
  - Anyone can listen
  - Anyone can broadcast
- - Need both identification and encryption
- - Ideally want integrity
- - Will focus mainly on encryption (and breaking)
+ - Ideally want authentication, integrity and encryption
+ - Will focus mainly on encryption
 
 # Enigma as an example
 
@@ -42,6 +47,7 @@
 
 # Operation
 
+ - Effectively a polyalphabetic substitution cipher
  - Plugboard: Swaps pairs of letters
  - Rotors: Position and starting letter
  - Press plaintext on keyboard, ciphertext lamp lights up
@@ -60,63 +66,63 @@
  - Can triangulate radio signals to get rough location
  - Track operators by fingerprint
  - Useful even if message text is unknown
- - Sometimes gives clues for cracking
+ - Sometimes gives clues for codebreaking
  - Similar to metadata from emails, websites etc.
 
 # Design
 
  - Enigma could never encrypt a character as itself
- - If you see 'A' in ciphertext, plaintext cannot be 'a'
- - Reduces key space by factor of 26 - so what?
  - Helps eliminate potential keys
- - Plaintext guessing
+ - Plaintext guessing using cribs
 
+# Operational rules
 
-# Plaintext 'knowledge'
+ - Rule against having rotors in same position for more than 2 days
+ - No swapping plugboard letters with neighbours
+ - Preventing 'obvious' combinations reduced key space
 
- - Knowing (or guessing) some of the plaintext helps with cracking
- - Knowing the position of plaintext is even better
+# Plaintext knowledge
+
+ - Knowing (or guessing) some of the plaintext helps with codebreaking
+ - Knowing the position of plaintext is even better (can be guessed)
  - Army reports tend to be structured and regular (e.g. weather)
  - 'Nothing to report' reports
- - Intentionally cause known messages to be sent
+ - Intentionally cause known messages to be sent ('gardening')
 
 # Compromised keys
 
- - U-boats spent long times at sea
  - Capture a U-boat and you have the keys
  - Germans did not always revoke keys after capture (expensive)
  - Reliance on U-boat crew destroying keys
  - Extremely dangerous operation, but rewarding
- - Still need cryptoanalysis to continue
 
 # U-33
 
  - Sent to lay mines in Scottish waters
  - Normal procedure: no Enigma machines or codes on mine-layers
- - Ignored and submarine was captured, along with bits of Enigma machine
+ - Procedure ignored, crew and parts of Enigma machine captured
 
 # Per-message keys
 
  - Choose a new key per message, encrypted with the day book setting
  - Reduces the amount of ciphertext using the day book setting
- - Send key twice to avoid transmission problems
- - Repetition is bad
+ - Send key twice to avoid transmission problems (initially)
  - Obtain the day key and you have the message keys
 
 # Guessable message keys
 
  - People can't choose truly random sequences
- - Operators choose their/partner's initials
+ - Operators choose their/partner's initials etc. ('cillies')
  - Operators re-use keys
  - Actual key space much lower than theorectical key space
  - Similar to card PINs today
 
-
-# Blind faith in security
+# Faith in security
 
  - Enigma assumed to be unbreakable
  - Reasonable assumption *if used correctly*
  - Occasionally not using decrypted messages
+ - Send spotter planes to known U-boat locations
  - Assumption of spies etc. instead of code breakers
  - Zimmerman telegram (WWI)
 
@@ -125,7 +131,7 @@
  - Key space can be reduced by flaws in design and operation
  - Reduced key space + automation = brute force can work
  - Repetition, re-use and regularity undermines cryptography
- - Traffic analysis can sidestep encryption and aid cracking
+ - Traffic analysis can sidestep encryption and aid codebreaking
  - If keys are lost, assume they have been compromised
  - No system survives first contact with users
 
@@ -133,6 +139,7 @@
 
  - Questions?
  - Slides at: talks.phpdeveloper.org.uk
+ - Bletchley Park trip mailing list: lists.xk7.net
 
 ## Further reading
 
