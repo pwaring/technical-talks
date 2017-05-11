@@ -4,7 +4,6 @@
 
 # whoami
 
- - UKUUG/FLOSS UK regular
  - Freelancing since July 2015
  - PHP developer and Linux system administrator
  - Specialise in legacy code/systems and financial services
