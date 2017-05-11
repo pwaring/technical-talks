@@ -1,1 +1,6 @@
-Paul Waring is a freelance PHP developer and system administrator based in Greater Manchester, with experience in web design, hosting and programming in a professional capacity since 2000. Outside of work, Paul runs Currybeer socials and Geek Walks, and acts as treasurer and webmaster for the Manchester Classical Association. He is also a regular attendee at the Manchester Linux Users Group and has given talks on a variety of subjects.
+Paul Waring is a freelance PHP developer and system administrator based in
+Greater Manchester, with experience in web design, hosting and programming in a
+professional capacity since 2000. Outside of work, Paul runs Currybeer socials
+and Geek Walks, and acts as treasurer and webmaster for the Manchester Classical
+Association. He is also a regular attendee at the Manchester Linux Users Group
+and has given talks on a variety of subjects.
