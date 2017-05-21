@@ -4,10 +4,11 @@
 
 # whoami
 
- - Freelancing since July 2015
+ - Freelancing full-time since July 2015
  - PHP developer and Linux system administrator
  - Specialise in legacy code/systems and financial services
  - I like trains, politics and technology (@pwaring)
+ - You may know me from: Geek Walks, Currybeer
 
 # Topics
 
