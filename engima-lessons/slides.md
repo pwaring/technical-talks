@@ -43,7 +43,7 @@
 
 # The machine
 
-![Enigma Machine](images/enigma-labelled.jpg)
+![Enigma Machine (Credit: Wikipedia)](images/enigma-labelled.jpg)
 
 # Operation
 
