@@ -76,7 +76,7 @@
 # Simple website
 
  - Keep it really simple
- - If in doubt, use WordPress with custom theme
+ - If in doubt, use WordPress with non-default theme
  - List contact details, portfolio and CV
  - Blog if you have time
  - Keyword-rich domain
