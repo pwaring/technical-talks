@@ -1,6 +1,6 @@
 % Life as a coin-operated monkey
 % Paul Waring (paul@xk7.net)
-% March 16, 2017
+% June 6, 2017
 
 # whoami
 
