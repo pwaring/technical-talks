@@ -92,7 +92,7 @@
 # Compromised keys
 
  - Capture a U-boat and you have the keys
- - Germans did not always revoke keys after capture (expensive)
+ - Germans did not always revoke keys after sinking (expensive)
  - Reliance on U-boat crew destroying keys
  - Extremely dangerous operation, but rewarding
 
