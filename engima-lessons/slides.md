@@ -13,7 +13,7 @@
  - World War 2: 1939 - 1945
  - Germany + others (Axis) vs Britain + others (Allies)
  - Enigma used pre- and post-war (e.g. British colonies)
- - Other crytographical systems, e.g. Lorenz, Purple
+ - Other cryptographical systems, e.g. Lorenz, Purple
 
 # Problem
 
