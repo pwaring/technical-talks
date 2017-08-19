@@ -111,7 +111,7 @@
 
 # Guessable message keys
 
- - People can't choose truly random sequences
+ - People can't choose random sequences (or pseudo-random)
  - Operators choose their/partner's initials etc. ('cillies')
  - Operators re-use keys
  - Actual key space much lower than theorectical key space
