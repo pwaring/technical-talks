@@ -113,6 +113,7 @@
  - Underselling yourself
  - Taking every job offered
  - Going to every meeting
+ - Not taking holiday
  - Not standing your ground
 
 # Thanks for listening
