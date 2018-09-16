@@ -4,8 +4,9 @@
 
 # whoami
 
- - Freelancing full-time since July 2015
+ - Freelancing full-time since July 2015 (part-time since 2000)
  - PHP developer and Linux system administrator
+ - Background in academia and insurance
  - Specialise in legacy code/systems and financial services
  - I like trains, politics and technology (@pwaring)
  - You may know me from: Geek Walks, Currybeer
