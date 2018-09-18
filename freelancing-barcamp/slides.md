@@ -1,19 +1,16 @@
 % Life as a coin-operated monkey
-% Paul Waring (paul@xk7.net)
-% June 6, 2017
+% Paul Waring (paul@phpdeveloper.org.uk)
+% September 29, 2018
 
 # whoami
 
  - Freelancing full-time since July 2015 (part-time since 2000)
  - PHP developer and Linux system administrator
- - Background in academia and insurance
- - Specialise in legacy code/systems and financial services
  - I like trains, politics and technology (@pwaring)
  - You may know me from: Geek Walks, Currybeer
 
 # Topics
 
- - Mix of my experiences and practical advice
  - Why you might want to try freelancing (and why not)
  - How to make freelancing work
  - Whatever you want - ask me anything!
@@ -26,16 +23,9 @@
 
 # Why not?
 
- - Fewer employment rights
  - Limited cover for sickness, emergencies, redundancy
  - No paid leave
  - Buying/renting property is hard
-
-# Types of freelancing mode
-
- - Fixed-term contract
- - Project work
- - Regular clients
 
 # Fixed term contract
 
@@ -61,11 +51,6 @@
  - Not many freelancers offer this
  - My niche area
 
-# Finding work
-
- - Networking
- - Simple website
-
 # Networking
 
  - Continuous process over many years
@@ -82,31 +67,12 @@
  - Blog if you have time
  - Keyword-rich domain
 
-# Time management
-
- - Sales meetings are expensive - ration them
- - First hour meeting + travel is free, then charge
-
 # Money management
 
  - Cash flow is everything
  - Strict credit terms - 14 days or less
  - Every payment, move 30% into liability account
  - Use this account solely for settling tax bill
-
-# Value Added Tax
-
- - Effectively adds 20% to your prices
- - Not everyone can reclaim it
- - Paperwork and penalties if you get it wrong
- - Avoid if possible
-
-# Terms of business agreements
-
- - Reply to every initial enquiry with these
- - Make everyone sign before starting work
- - Keep them short and simple
- - Email me if you want mine
 
 # Mistakes to avoid
 
