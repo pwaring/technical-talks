@@ -47,7 +47,6 @@
 
  - Multiple projects per client
  - Non-exclusive
- - Retainers are great if available
  - Not many freelancers offer this
  - My niche area
 
@@ -57,7 +56,6 @@
  - Start now
  - Depth rather than breadth
  - Repeat attendance not wide attendance
- - LinkedIn can be worthwhile
 
 # Simple website
 
@@ -65,7 +63,6 @@
  - If in doubt, use WordPress with non-default theme
  - List contact details, portfolio and CV
  - Blog if you have time
- - Keyword-rich domain
 
 # Money management
 
@@ -86,5 +83,5 @@
 # Thanks for listening
 
   - Questions?
-  - Slides at: talks.phpdeveloper.org.uk
+  - Slides at: phpdeveloper.org.uk/talks
   - Hat tip to @mart_brooks for the title
