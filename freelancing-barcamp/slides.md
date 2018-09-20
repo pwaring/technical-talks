@@ -25,6 +25,7 @@
 
  - Limited cover for sickness, emergencies, redundancy
  - No paid leave
+ - You are responsible for *everything*
  - Buying/renting property is hard
 
 # Fixed term contract
