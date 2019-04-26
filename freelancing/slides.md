@@ -108,6 +108,14 @@
  - Keep them short and simple
  - Email me if you want mine
 
+# Work/life balance
+
+ - Separate email accounts for personal/business
+ - Don't check work email outside working hours
+ - Install Workrave
+ - Take regular time off
+ - Don't work evenings/weekends
+
 # Mistakes to avoid
 
  - Fixed price jobs
