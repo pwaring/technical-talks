@@ -11,26 +11,12 @@
     install_packages:
       - ufw
       - dnsutils
-    install_packages_backports:
       - unbound
-    apt_keys:
-      - 8B48AD6246925553
-      - 7638D0442B90D010
     allowed_services:
       - ssh
       - domain
 
   tasks:
-    - name: add jessie-backports keys
-      with_items: "{{ apt_keys }}"
-      apt_key:
-        id: "{{ item }}"
-        keyserver: pgpkeys.mit.edu
-
-    - name: add jessie-backports
-      apt_repository:
-        repo: deb http://httpredir.debian.org/debian jessie-backports main contrib non-free
-
     - name: install required packages
       with_items: "{{ install_packages }}"
       apt:
@@ -38,17 +24,9 @@
         update_cache: "{{ apt_update_cache }}"
         cache_valid_time: "{{ apt_cache_valid_time }}"
 
-    - name: install packages from backports
-      with_items: "{{ install_packages_backports }}"
-      apt:
-        name: "{{ item }}"
-        default_release: jessie-backports
-        update_cache: "{{ apt_update_cache }}"
-        cache_valid_time: "{{ apt_cache_valid_time }}"
-
     - name: copy unbound config
       copy:
-        src: files/unbound/99-local.conf
+        src: files/unbound/99-local.conf.j2
         dest: /etc/unbound/unbound.conf.d/99-local.conf
         owner: root
         group: root
