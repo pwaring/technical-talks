@@ -1,0 +1,10 @@
+# local unbound.conf config
+#  access-control: ::1 allow
+#  access-control: 2a02:8011:1f::/48 allow
+#  interface: ::0
+server:
+  interface: 0.0.0.0
+  interface: ::0
+  access-control: {{ ipv4_local }} allow
+  access-control: {{ ipv6_local }} allow
+  verbosity: 3
