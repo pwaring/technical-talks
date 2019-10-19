@@ -1,6 +1,6 @@
 % Why PHP is great (and all other languages suck)
-% Paul Waring (paul@xk7.net, @pwaring)
-% March 16, 2016
+% Paul Waring (@pwaring)
+% October 20, 2019
 
 # Assembly
 
@@ -12,7 +12,6 @@
 
  - No garbage collection
  - Overflow all the things!
- - Smash the stack for fun and profit
  - Necessary evil for kernel level
 
 # Go
@@ -22,19 +21,17 @@
 
 # Java
 
- - C++ for dummies
  - Omnomnom your memory is delicious
  - Write once, run nowhere
+ - Part of <s>the Borg</s> Oracle
 
 # C\#
 
- - Microsoft's "Not Invented Here" solution to Java
- - For people who haven't heard of Linux
- - Disadvantages of Java, plus less cross platform support
+ - Microsoft's "Not Invented Here" alternative to Java
 
 # Python
 
- - WTF whitespace?
+ - Whitespace should not be syntax (fight me)
  - 2 to 3 breaks everything, including `print`
 
 # Perl (5)
@@ -81,4 +78,4 @@
 
  - PHP is great, all other languages suck
  - Write everything in PHP
- - Shameless plug: hire me ;-)
+ - Or pay me to do it for you! (phpdev.uk)

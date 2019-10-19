@@ -1,19 +1,18 @@
 % Life as a coin-operated monkey
-% Paul Waring (paul@phpdeveloper.org.uk)
-% September 29, 2018
+% Paul Waring (phpdev.uk)
+% October 20, 2019
 
 # whoami
 
  - Freelancing full-time since July 2015 (part-time since 2000)
  - PHP developer and Linux system administrator
- - I like trains, politics and technology (@pwaring)
  - You may know me from: Geek Walks, Currybeer
 
 # Topics
 
  - Why you might want to try freelancing (and why not)
  - How to make freelancing work
- - Whatever you want - ask me anything!
+ - Ask me anything (at the end/break/lunch)
 
 # Why?
 
@@ -26,7 +25,7 @@
  - Limited cover for sickness, emergencies, redundancy
  - No paid leave
  - You are responsible for *everything*
- - Buying/renting property is hard
+ - Buying/renting property is hard(er)
 
 # Fixed term contract
 
@@ -72,17 +71,16 @@
  - Every payment, move 30% into liability account
  - Use this account solely for settling tax bill
 
-# Mistakes to avoid
+# Make your life easier
 
- - Fixed price jobs
- - Underselling yourself
- - Taking every job offered
- - Going to every meeting
- - Not taking holiday
- - Not standing your ground
+ - Take regular breaks and holidays
+ - Keep personal and work life separate (email, phone, finances)
+ - Don't check work stuff outside of work hours
+ - Trust your instincts
+ - Stand your ground
 
 # Thanks for listening
 
   - Questions?
-  - Slides at: phpdeveloper.org.uk/talks
+  - Slides at: phpdev.uk
   - Hat tip to @mart_brooks for the title
