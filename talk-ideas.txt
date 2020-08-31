@@ -1,0 +1,6 @@
+Technical talk ideas
+
+Pi Hole as a local DNS resolver and blocker
+Enigma Lessons
+Virtualisation and Containers
+
