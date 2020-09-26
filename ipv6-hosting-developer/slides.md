@@ -1,4 +1,4 @@
-% IPv6 from a hosting and developer perspective
+% IPv6: A hosting and developer perspective
 % Paul Waring
 % October 8, 2020
 
