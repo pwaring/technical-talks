@@ -22,6 +22,12 @@
  - Allocation pools exhausted in many areas
  - IPv6 fix: more addresses (forget everything else)
 
+# Current state of play
+
+ - Lots of hosting providers don't offer IPv6 at all
+ - Some offer it but limited use cases (e.g. no loadbalancers)
+ - Very few "big" providers offer IPv6 with the same features as IPv4
+
 # Lack of addresses "solutions"
 
  - Make the most of the addresses we do have
