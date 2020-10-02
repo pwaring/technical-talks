@@ -15,7 +15,6 @@
  - Current state of play
  - Squeezing the last drops from IPv4
  - Problems deploying IPv6
- - Competition concerns
 
 # The problem with IPv4
 
@@ -30,6 +29,7 @@
  - Many hosting providers don't offer IPv6 at all
  - Some offer it but limited use cases
  - Very few big providers offer IPv6 with feature parity with IPv4
+ - Unscientific test: 
 
 # Squeezing the last drops from IPv4
 
@@ -45,7 +45,7 @@
  - Services not listening on IPv6 (e.g. SSH stopped working)
  - Databases only supported storing IPv4 addresses
  - Different behaviour in Apache and nginx
- - Need to monitor and test 2 protocols instead of 1
+ - Monitor both protocols - some software defaults to IPv4
  - More things to go wrong
 
 # Problems deploying IPv6 (external, not always fixable)
