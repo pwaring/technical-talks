@@ -7,12 +7,13 @@
  - Freelance PHP developer and Linux system administrator
  - Work on the hosting and development side
  - Looking at this from the opposite side to an ISP
- - Less attention - both sides must support a protocol
+ - Different challenges to ISP or datacentre deployment
 
 # Topics
 
  - The problem with IPv4
  - Current state of play
+ - Squeezing the last drops from IPv4
  - Problems deploying IPv6
  - Competition concerns
 
@@ -20,15 +21,17 @@
 
  - Not enough addresses
  - Allocation pools exhausted in many areas
+ - RIPE 733: You might get a /24 if you're lucky (waiting list)
  - IPv6 fix: more addresses (forget everything else)
 
 # Current state of play
 
- - Lots of hosting providers don't offer IPv6 at all
- - Some offer it but limited use cases (e.g. no loadbalancers)
- - Very few "big" providers offer IPv6 with the same features as IPv4
+ - Draft standard 1998, ratified in 2017
+ - Many hosting providers don't offer IPv6 at all
+ - Some offer it but limited use cases
+ - Very few big providers offer IPv6 with feature parity with IPv4
 
-# Lack of addresses "solutions"
+# Squeezing the last drops from IPv4
 
  - Make the most of the addresses we do have
  - HTTP/1.1 - Host: header
@@ -50,16 +53,13 @@
  - Third party APIs which require IPv4 addresses
  - Stricter rules on mail over IPv6 (e.g. Google)
  - No obvious benefit for customers (c.f. PHP 5 -> PHP 7)
- - External solution: Google boosts IPv6 results
+ - Lack of feature parity with IPv4 (e.g. no load balancers)
 
-# Competition concerns
+# How can we solve this?
 
- - Still need IPv4 to start a hosting provider
- - Huge advantage to incumbents
- - Bumps up value of firms with allocations
- - Pay RIPE €2,000 + €1,400/year to become an LIR
- - RIPE 733: You might get a /24 if you're lucky (waiting list)
+ - Ask your hosting provider if they support v6
  - Regulatory requirement to deploy IPv6 (esp. ISPs)?
+ - If Google gave IPv6 an SEO boost...
 
 # Takeaways
 
@@ -74,6 +74,5 @@
   - Slides (+ extra resources): phpdev.uk/talks
   - Email: paul@phpdeveloper.org.uk
   - Twitter: @pwaring
-  - Credits: (list of providers who helped)
   - Questions?
 
