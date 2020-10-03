@@ -15,6 +15,7 @@
  - Current state of play
  - Squeezing the last drops from IPv4
  - Problems deploying IPv6
+ - How do we solve this?
 
 # The problem with IPv4
 
@@ -25,11 +26,9 @@
 
 # Current state of play
 
- - Draft standard 1998, ratified in 2017
  - Many hosting providers don't offer IPv6 at all
- - Some offer it but limited use cases
  - Very few big providers offer IPv6 with feature parity with IPv4
- - Unscientific test: 
+ - (insert stats on v6 traffic and v6 on top sites)
 
 # Squeezing the last drops from IPv4
 
@@ -37,29 +36,29 @@
  - HTTP/1.1 - Host: header
  - Server Name Indication (broke IE/XP)
  - Don't really work across servers
- - Proxy - complicates infrastructure
- - Only long-term fix: deploy IPv6
+ - Proxy - complicates infrastructure, SPoF
 
 # Problems deploying IPv6 (internal, fixable)
 
- - Services not listening on IPv6 (e.g. SSH stopped working)
- - Databases only supported storing IPv4 addresses
- - Different behaviour in Apache and nginx
+ - Services not listening on IPv6 (e.g. SSH)
+ - Database schema only supports IPv4 addresses
+ - Application logic assumes IPv4 (e.g. ACLs)
  - Monitor both protocols - some software defaults to IPv4
  - More things to go wrong
 
 # Problems deploying IPv6 (external, not always fixable)
 
- - Third party APIs which require IPv4 addresses
- - Stricter rules on mail over IPv6 (e.g. Google)
- - No obvious benefit for customers (c.f. PHP 5 -> PHP 7)
+ - Third party APIs requiring IPv4 addresses (data + firewall)
+ - Stricter spam detection on mail over IPv6
+ - Proprietary applications
+ - No obvious benefit for customers
  - Lack of feature parity with IPv4 (e.g. no load balancers)
 
 # How can we solve this?
 
- - Ask your hosting provider if they support v6
- - Regulatory requirement to deploy IPv6 (esp. ISPs)?
- - If Google gave IPv6 an SEO boost...
+ - Technical: Long hard slog
+ - Policy: Regulatory requirement to deploy IPv6
+ - Market: IPv6 SEO boost
 
 # Takeaways
 
