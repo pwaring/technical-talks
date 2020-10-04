@@ -26,9 +26,10 @@
 
 # Current state of play
 
- - Many hosting providers don't offer IPv6 at all
+ - Some hosting providers don't offer IPv6 at all
  - Very few big providers offer IPv6 with feature parity with IPv4
- - (insert stats on v6 traffic and v6 on top sites)
+ - Facebook/Google: 25-30% of incoming traffic on IPv6 (with wide deployment)
+ - Probably need dual-stack for now
 
 # Squeezing the last drops from IPv4
 
@@ -51,14 +52,15 @@
  - Third party APIs requiring IPv4 addresses (data + firewall)
  - Stricter spam detection on mail over IPv6
  - Proprietary applications
- - No obvious benefit for customers
+ - Hardcoded IP addresses
+ - No immediate benefit for most customers
  - Lack of feature parity with IPv4 (e.g. no load balancers)
 
 # How can we solve this?
 
- - Technical: Long hard slog
+ - Technical: Deploy, debug, fix (repeat ad infinitum)
  - Policy: Regulatory requirement to deploy IPv6
- - Market: IPv6 SEO boost
+ - Market: IPv6 SEO boost, browser warnings (c.f. HTTPS)
 
 # Takeaways
 
