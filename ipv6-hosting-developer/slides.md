@@ -22,6 +22,7 @@
  - Not enough addresses
  - Allocation pools exhausted in many areas
  - RIPE 733: You might get a /24 if you're lucky (waiting list)
+ - Every VPS, container etc. potentially needs an IP address
  - IPv6 fix: more addresses (forget everything else)
 
 # Current state of play
@@ -36,6 +37,7 @@
  - Make the most of the addresses we do have
  - HTTP/1.1 - Host: header
  - Server Name Indication (broke IE/XP)
+ - Private address space
  - Don't really work across servers
  - Proxy - complicates infrastructure, SPoF
 
