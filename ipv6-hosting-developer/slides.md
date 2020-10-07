@@ -22,6 +22,7 @@
  - Some hosting providers don't offer IPv6 at all
  - Very few big providers offer IPv6 with feature parity with IPv4
  - Facebook/Google: 25-30% of incoming traffic on IPv6 (with wide deployment)
+ - Alexa top 1000 websites: 25-30% available over IPv6
  - Probably need dual-stack for now
 
 # Squeezing the last drops from IPv4
