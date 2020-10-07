@@ -9,14 +9,6 @@
  - Looking at this from the opposite side to an ISP
  - Different challenges to ISP or datacentre deployment
 
-# Topics
-
- - The problem with IPv4
- - Current state of play
- - Squeezing the last drops from IPv4
- - Problems deploying IPv6
- - How do we solve this?
-
 # The problem with IPv4
 
  - Not enough addresses
