@@ -8,13 +8,13 @@
  - Work on the hosting and development side
  - Different challenges to ISP deployment
 
-# The problem with IPv4
+# Why deploy IPv6?
 
- - Not enough addresses
+ - Not enough IPv4 addresses
  - Allocation pools exhausted in many areas
  - RIPE 733: You might get a /24 if you're lucky (waiting list)
  - Every VPS, container etc. wants an IP address
- - IPv6 fix: more addresses (forget everything else)
+ - IPv6 fix: more addresses (and a few other shiny things)
 
 # Current state of play
 
@@ -28,13 +28,13 @@
 
  - Make the most of the addresses we do have
  - HTTP/1.1 - Host: header
- - Server Name Indication (broke IE/XP)
+ - Server Name Indication (broke lots of clients, esp. IE/XP)
  - Don't really work across servers
  - Proxy - complicates infrastructure, SPoF
 
 # Problems deploying IPv6 (internal, fixable)
 
- - Services not listening on IPv6 (e.g. SSH)
+ - Services not listening on IPv6 (e.g. SSH/firewall)
  - Database schema only supports IPv4 addresses
  - Application logic assumes IPv4 (e.g. ACLs)
  - Monitor both protocols - some software defaults to IPv4
