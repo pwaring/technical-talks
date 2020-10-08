@@ -6,15 +6,14 @@
 
  - Freelance PHP developer and Linux system administrator
  - Work on the hosting and development side
- - Looking at this from the opposite side to an ISP
- - Different challenges to ISP or datacentre deployment
+ - Different challenges to ISP deployment
 
 # The problem with IPv4
 
  - Not enough addresses
  - Allocation pools exhausted in many areas
  - RIPE 733: You might get a /24 if you're lucky (waiting list)
- - Every VPS, container etc. potentially needs an IP address
+ - Every VPS, container etc. wants an IP address
  - IPv6 fix: more addresses (forget everything else)
 
 # Current state of play
@@ -30,7 +29,6 @@
  - Make the most of the addresses we do have
  - HTTP/1.1 - Host: header
  - Server Name Indication (broke IE/XP)
- - Private address space
  - Don't really work across servers
  - Proxy - complicates infrastructure, SPoF
 
@@ -44,12 +42,12 @@
 
 # Problems deploying IPv6 (external, not always fixable)
 
- - Third party APIs requiring IPv4 addresses (data + firewall)
- - Stricter spam detection on mail over IPv6
- - Proprietary applications
+ - Third party APIs requiring IPv4 addresses
+ - Stricter spam detection on email over IPv6
+ - Proprietary or undocumented applications
  - Hardcoded IP addresses
- - No immediate benefit for most customers
  - Lack of feature parity with IPv4 (e.g. no load balancers)
+ - No immediate benefit for most customers
 
 # How can we solve this?
 
@@ -71,4 +69,3 @@
   - Email: paul@phpdeveloper.org.uk
   - Twitter: @pwaring
   - Questions?
-
