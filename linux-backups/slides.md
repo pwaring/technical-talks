@@ -25,13 +25,26 @@
 
  - Opinions vary
  - Minimum: Anything you can't rebuild/download
+ - Local data
+ - Remote data: Google Drive etc.
 
 # Hardware
 
  - USB drives are cheap (1TB ~= £50)
  - Spread drives amongst manufacturers
 
+# Cloud
+
+ - S3
+ - Backblaze
+
 # Security
 
  - Backup software sometimes has built-in encryption
  - Encrypt the underlying block device too (e.g. LUKS)
+
+# Borg
+
+# restic
+
+# tar
