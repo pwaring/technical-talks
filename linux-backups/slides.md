@@ -45,7 +45,7 @@
  - USB drives (1TB: £50, 2TB: £70, 4TB: £90)
  - Spread drives amongst manufacturers
  - Buy drives over time - less risk of a bad batch
- - USB 3.0 (both sides!)
+ - USB 3.0 (both sides!) if possible
  - Seagate + Western Digital have worked for me
 
 # Cloud
@@ -60,6 +60,8 @@
  - Keep the keys somewhere secure - don't lose them!
 
 # Borg
+
+ - `borg check` can be very slow - run it every X days
 
 # restic
 
