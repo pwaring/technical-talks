@@ -1,12 +1,11 @@
-% Linux Backup Options
+% Linux Backups
 % Paul Waring
 % March 20, 2021
 
-# whoami
+# Introduction
 
- - Freelance PHP developer and Linux system administrator
- - Specialise in legacy code/systems and financial services
- - I like trains, politics and technology (@pwaring)
+ - Different backup strategies
+ - Interactive - please ask questions/make comments!
 
 # Why backup
 
@@ -22,13 +21,14 @@
  - Automate reminders
  - Test restores
  - Quick/easy restore of individual files
+ - Multiple sites if possible
 
 # What to backup
 
  - Opinions vary
  - Minimum: Anything you can't rebuild/download
  - Local data
- - Remote data: Google Drive, GitHub etc.
+ - Remote data: Google Drive, emails etc.
  - Don't forget databases, saved games etc.
  - Full disk snapshots
 
@@ -38,7 +38,8 @@
 
 # DRM
 
- - Kindle e-books
+ - As-is is a good starting point
+ - Some DRM can be stripped (e.g. Calibre + DeDRM)
 
 # Hardware
 
@@ -50,8 +51,14 @@
 
 # Cloud
 
+ - VPS
  - S3
  - Backblaze
+
+# Speed vs size trade-offs
+
+ - De-duplication
+ - Incremental vs full
 
 # Security
 
@@ -65,13 +72,29 @@
 
 # restic
 
+ - Very fast (for my workload)
+ - Rapid development
+ - Available as a Snap, binary, easy to build from source
+
 # tar
 
+ - Full backups are trivial
+ - Every Linux, *BSD and macOS machine has tar
+ - Range of compression options
+ - Need wrapper scripts for most purposes
+
 # rclone
+
+ - rsync for cloud services
+ - Supports Google Drive, Dropbox, lots of others
+ - Can upload and download
 
 # Automation
 
  - Regular backups
  - Prompt to backup (e.g. for USB drives that need to be inserted)
+ - `remind` command
 
 # My backups
+
+ - Wrapper scripts for tar, restic, and borg
