@@ -55,10 +55,12 @@
  - S3
  - Backblaze
 
-# Speed vs size trade-offs
+# Trade-offs
 
  - De-duplication
  - Incremental vs full
+ - Compression
+ - Encryption
 
 # Security
 
@@ -68,7 +70,10 @@
 
 # Borg
 
+ - De-duplication and encryption
+ - Supports different backend targets
  - `borg check` can be very slow - run it every X days
+ - Available as a package for most distros
 
 # restic
 
