@@ -26,9 +26,9 @@
 
 # Why not?
 
- - Fewer employment rights
  - Limited cover for sickness, emergencies, redundancy
  - No paid leave
+ - You are responsible for *everything*
  - Buying/renting property is harder
 
 # Types of freelancing mode
@@ -86,6 +86,7 @@
 
  - Sales meetings are expensive - ration them
  - First hour meeting + travel is free, then charge
+ - 30 minutes free consultation, remote-only
 
 # Money management
 
@@ -99,6 +100,7 @@
  - Effectively adds 20% to your prices
  - Not everyone can reclaim it
  - Paperwork and penalties if you get it wrong
+ - Unpaid tax collector for HMRC
  - Avoid if possible
 
 # Terms of business agreements
@@ -111,7 +113,8 @@
 # Work/life balance
 
  - Separate email accounts for personal/business
- - Don't check work email outside working hours
+ - Separate phone numbers (and maybe physical phone)
+ - Don't check work email or phone outside working hours
  - Install Workrave
  - Take regular time off
  - Don't work evenings/weekends
@@ -124,9 +127,18 @@
  - Going to every meeting
  - Not taking holiday
  - Not standing your ground
+ 
+# Make your life easier
+
+ - Take regular breaks and holidays
+ - Keep personal and work life separate (email, phone, finances)
+ - Don't check work stuff outside of work hours
+ - Trust your instincts
+ - Stand your ground
+
 
 # Thanks for listening
 
   - Questions?
-  - Slides at: talks.phpdeveloper.org.uk
+  - Slides at: phpdev.uk/talks
   - Hat tip to @mart_brooks for the title
