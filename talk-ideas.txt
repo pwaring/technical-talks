@@ -4,3 +4,8 @@ Pi Hole as a local DNS resolver and blocker
 Enigma Lessons
 Virtualisation and Containers
 
+Interesting bugs:
+* Civilization Gandi nuclear war
+* LibreOffice won't print on Tuesdays
+* Janet Jackson crashes laptops:
+https://devblogs.microsoft.com/oldnewthing/20220816-00/?p=106994
