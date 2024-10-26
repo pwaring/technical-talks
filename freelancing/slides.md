@@ -8,7 +8,7 @@
  - PHP developer and Linux system administrator
  - Background in academia and insurance
  - Specialise in legacy code/systems and financial services
- - I like trains, politics and technology (@pwaring)
+ - I like trains, politics and technology (@pwaring@fosstodon.org)
  - You may know me from: Geek Walks, Currybeer (but not golf or moths)
 
 # Topics
