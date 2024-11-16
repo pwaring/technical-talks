@@ -20,9 +20,9 @@
 
 # What is Advent of Code?
 
- - Annual coding challenge every December
- - 1 puzzle (in two parts) per day in Advent
+ - Annual coding challenge in December
  - Every year since 2015
+ - 1 puzzle (in two parts) per day in Advent
  - 100,000+ participants each year
  - Free to take part
  - Supported by sponsorship, donations and merchandise
@@ -81,11 +81,11 @@
 
 # C
 
- - Challenge: Standard library only
- - Unity is an easy to use test framework
+ - Challenge: Standard library only, C99
+ - [Unity](https://www.throwtheswitch.org/unity) is an easy to use test framework
  - Write tests as C functions with 1+ assertions
  - Include as a submodule
- - A good Makefile is your friend - makes it almost rapid prototyping
+ - Makefile + script are your friends
  
 # Go
 
