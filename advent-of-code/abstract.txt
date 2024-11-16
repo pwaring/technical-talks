@@ -1,3 +1,3 @@
-Title: Advent of Code
+Advent of Code is an annual coding challenge with a new puzzle for each day between 1st and 25th December. You can use any language you want and take as much time as you need, though there is some lighthearted competition in the form of leaderboards and trying to find the shortest, quickest or most esoteric solution.
 
-
+In this talk we'll take a look at how to approach solving the puzzles, some tips on techniques that will make your life easier, and why you might want to choose specific languages. We'll also work through some example solutions for previous years in Go and C, including how to automatically test code and deal with edge cases that are common in the puzzles.
