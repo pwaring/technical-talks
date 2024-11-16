@@ -1,49 +1,77 @@
 % Advent of Code
 % Paul Waring (paul@xk7.net)
-% 17th November 2024
+% 16th November 2024
 
 # whoami
 
- - PHP developer and Linux system administrator
+ - Freelance PHP developer and Linux system administrator
  - Specialise in legacy code/systems and financial services
  - I like trains, politics and technology (@pwaring@fosstodon.org)
  - You may know me from: Geek Walks, Currybeer (but not golf or moths)
 
 # Topics
 
- - Mix of my experiences and practical advice
- - Why you might want to try freelancing (and why not)
- - How to make freelancing work
+ - What is Advent of Code?
+ - Language options
+ - Tips
+ - Testing
+ - Examples in Go and C
  - Questions at any time
 
 # What is Advent of Code?
 
- - Annual coding challenge: 1 puzzle (in two parts) per day in Advent
- - Puzzles get progressively harder as time goes on
- - Your input is unique (test input is shared)
+ - Annual coding challenge every December
+ - 1 puzzle (in two parts) per day in Advent
+ - Every year since 2015
+ - 100,000+ participants each year
+ - Free to take part
+ - Supported by sponsorship, donations and merchandise
+
+# What is Advent of Code?
+
+ - Puzzles get progressively (but not linearly) harder as time goes on
+ - Your input and answer are unique (c.f. Project Euler)
  - Brute-force solutions often don't work
  - Don't have to solve puzzle n to unlock n+1
  - Puzzles are always available, can try previous years
- - Supported by sponsorship and donations
+
+# Leaderboards
+
+ - Points based on who is first, second etc. to solve a puzzle
+ - Puzzles released at midnight EST - 05:00 GMT
+ - Global leaderboard fills up *very* quickly
+ - Private leaderboards (one per account)
 
 # Languages
 
+ - Use any languages you want
+ - Some languages might suit different puzzles
+ - Familiar language: solve quickly
  - Choose a language you want to learn / improve
- - Often a different paradim, e.g. functional vs imperative
- - C and Go are my choices most years
+ - Maybe a different paradigm, e.g. functional vs imperative
+ - C or Go are my choices most years
 
 # Tips
 
  - Read the puzzle descriptions carefully
  - Edge cases often catch people out
  - Think about possible interpretations
+ - Create a sensible filesystem structure
 
 # Tips
 
- - Don't get disheartened
- - Sometimes puzzles are wrong or ambiguous
+ - Write tests
+ - Read the input in one go (especially with C)
+ - Build simple data structures - as many as you need
+ - Don't worry about optimisation to start with
+
+# Tips
+
+ - Don't get disheartened - days >10 are usually difficult
+ - Sometimes puzzles are ambiguous
  - Ambiguous: easy vs impossible
  - Focus on algorithms and data structures
+ - Lots of support, especially /r/AdventOfCode and #AdventOfCode
  
 # Testing
 
@@ -53,17 +81,25 @@
 
 # C
 
- - Unity is a very simple framework
+ - Challenge: Standard library only
+ - Unity is an easy to use test framework
  - Write tests as C functions with 1+ assertions
  - Include as a submodule
  - A good Makefile is your friend - makes it almost rapid prototyping
  
 # Go
 
- - One directory per puzzle part, otherwise Go throws a strop
- - github.com/MakeNowJust/heredoc: Embedding strings for tests
- - github.com/stretchr/testify: Better assertions / testing
- - github.com/samber/lo: Maps, filters, reduce etc.
+ - Use the latest version: generics, slices etc.
+ - One directory per puzzle part
+ - [heredoc](https://github.com/MakeNowJust/heredoc): Embedding strings for tests
+ - [testify](https://github.com/stretchr/testify): Better assertions / testing
+ - [lo](https://github.com/samber/lo): Maps, filters, reduce etc.
+
+# Examples
+
+ - [2015 Day 2 in C](https://adventofcode.com/2015/day/2)
+ - [2023 Day 6 in Go](https://adventofcode.com/2023/day/6)
+ - [2023 Day 11 in Go](https://adventofcode.com/2023/day/11)
 
 # Thanks for listening
 
