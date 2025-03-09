@@ -1,6 +1,6 @@
 % Life as a coin-operated monkey
 % Paul Waring (paul@phpdeveloper.org.uk)
-% June 6, 2017
+% 11 March 2025
 
 # whoami
 
@@ -28,8 +28,8 @@
 
  - Limited cover for sickness, emergencies, redundancy
  - No paid leave
- - You are responsible for *everything*
  - Buying/renting property is harder
+ - You are responsible for *everything*
 
 # Types of freelancing mode
 
@@ -42,8 +42,10 @@
  - Single client, exclusive
  - Usually on-site
  - Usually full-time
+ - Priced on a day rate
  - Initial term of 3-6 months
  - Extensions often available
+ - Over 2 years: possibly an employee
 
 # Project work
 
@@ -52,6 +54,7 @@
  - Works well for standard tasks, e.g. WordPress theme design
  - Can be hard to keep a pipeline of work
  - Often fixed pricing
+ - Competing globally
 
 # Regular clients
 
@@ -85,13 +88,13 @@
 # Time management
 
  - Sales meetings are expensive - ration them
- - First hour meeting + travel is free, then charge
- - 30 minutes free consultation, remote-only
+ - Pre-2020: First hour meeting + travel is free, then charge
+ - Now: 30 minutes free consultation, remote-only
 
 # Money management
 
  - Cash flow is everything
- - Strict credit terms - 14 days or less
+ - Strict payment terms - 14 days or less
  - Every payment, move 30% into liability account
  - Use this account solely for settling tax bill
 
@@ -121,12 +124,10 @@
 
 # Mistakes to avoid
 
- - Fixed price jobs
  - Underselling yourself
  - Taking every job offered
  - Going to every meeting
- - Not taking holiday
- - Not standing your ground
+
  
 # Make your life easier
 
@@ -141,4 +142,6 @@
 
   - Questions?
   - Slides at: phpdev.uk/talks
-  - Hat tip to @mart_brooks for the title
+  - @pwaring@fosstodon.org
+  - paul@phpdeveloper.org.uk
+
