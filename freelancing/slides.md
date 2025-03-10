@@ -1,6 +1,6 @@
 % Life as a coin-operated monkey
 % Paul Waring (paul@phpdeveloper.org.uk)
-% 11 March 2025
+% 11th March 2025
 
 # whoami
 
@@ -20,9 +20,9 @@
 
 # Why?
 
- - Greater control over your destiny
+ - Greater control over your career
  - Variety of work and clients
- - Flexibility - hours and workload
+ - Flexibility - which hours, how many, where
 
 # Why not?
 
